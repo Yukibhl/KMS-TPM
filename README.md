@@ -3,9 +3,12 @@ This project showcases how to generate and securely store RSA keys within a Trus
 
 # Key Features:
 Generates RSA keys with customizable parameters (e.g., key size and hashing algorithm).
+
 Stores keys securely within the TPM, ensuring protection against unauthorized access.
+
 Demonstrates session management and key handling operations in a TPM environment.
 
 # Technologies Used:
 Rust programming language
+
 tss-esapi crate for TPM interaction
